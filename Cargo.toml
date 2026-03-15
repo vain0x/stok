@@ -1,0 +1,11 @@
+[package]
+name = "stok"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "stok"
+path = "src/main.rs"
+
+[dependencies]
+rpassword = "7.4"
