@@ -2,6 +2,7 @@
 name = "stok"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/vain0x/stok"
 
 [[bin]]
 name = "stok"
@@ -17,3 +18,8 @@ strip = true
 opt-level = "z"  # Optimize for size.
 # Enable link-time optimization
 lto = true
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
