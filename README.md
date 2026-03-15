@@ -71,5 +71,9 @@ The application assumes the following:
 - You don't need to back up (or sync) these values across machines
 - It's okay to store them in *plaintext*
 
+## Alternative
+- [envchain](https://github.com/sorah/envchain) (macOS only, data stored in the keyring)
+- `op run` (from 1Password cloud storage)
+
 ## Development Documentation
 See [docs/dev/architecture.md](docs/dev/architecture.md)
