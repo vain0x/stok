@@ -63,8 +63,8 @@ Opt-out to specify `--no-env` or `STOK_NO_ENV=1`.
 
 ## Storage
 - Data is stored in the user's local state directory
-    - Windows: `%LOCALAPPDATA%\stok\env`
-    - Unix: `$XDG_STATE_HOME/stok/env` (defaults to `/home/<USERNAME>/.local/state/stok/env`)
+    - Windows: `%LOCALAPPDATA%\stok\.env`
+    - Unix: `$XDG_STATE_HOME/stok/.env` (defaults to `/home/<USERNAME>/.local/state/stok/.env`)
 
 ## Security Concerns
 The application assumes the following:
