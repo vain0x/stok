@@ -39,8 +39,6 @@ You will be prompted to enter the value. (Note you don't want to save secret val
 ### `stok --unset <NAME>`
 Delete the key.
 
-- `--force, -f`: No confirmation prompted.
-
 - Alias: `--delete, -d`, `--remove`, `--rm`
 
 ### `stok --ls`
