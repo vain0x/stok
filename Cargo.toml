@@ -9,3 +9,11 @@ path = "src/main.rs"
 
 [dependencies]
 rpassword = "7.4"
+
+# https://rustprojectprimer.com/building/size.html#binary-size
+[profile.release]
+# Automatically strip symbols from the binary.
+strip = true
+opt-level = "z"  # Optimize for size.
+# Enable link-time optimization
+lto = true
